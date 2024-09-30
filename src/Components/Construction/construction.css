@@ -1,0 +1,58 @@
+.home-container {
+  background-image: url("../../assets/images/Rectangle\ 11\ \(5\).svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #1f1f1fcc;
+  background-blend-mode: color-burn;
+}
+.home-container2 {
+  background-image: url("../../assets/images/Rectangle\ 11\ \(6\).svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #1f1f1fcc;
+  background-blend-mode: color-burn;
+}
+
+.home-container .home-text,
+.home-container2 .home-text {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+}
+.blog-container button {
+  display: none;
+}
+.portfolio-container button,
+.project-container button {
+  display: none;
+}
+
+.project-container {
+  background-color: transparent !important;
+}
+
+@media (max-width: 991.98px) {
+  .home-text {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+  }
+}

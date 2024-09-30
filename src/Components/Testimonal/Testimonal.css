@@ -1,0 +1,8 @@
+.testimonal-card {
+  border: none !important;
+  margin: 2px 1rem;
+}
+.testimonal-card .card-body {
+  border: none !important;
+  background-color: white;
+}

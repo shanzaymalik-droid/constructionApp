@@ -1,0 +1,11 @@
+.form-control:focus {
+  border-color: none !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+.contact-container {
+  background-color: #ffb400;
+}
+.icons {
+  background-color: black;
+}

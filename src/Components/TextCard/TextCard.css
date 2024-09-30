@@ -1,0 +1,56 @@
+.textCard .card-body,
+.textCard2 .card-body,
+.textCard3 .card-body,
+.textCard4 .card-body {
+  border: none !important;
+}
+.textCard .card,
+.textCard2 .card,
+.textCard3 .card {
+  border-radius: 0px;
+  background: #f7f7f7;
+}
+.textCard,
+.textCard3 {
+  background-color: #2a2a2a;
+  height: 700px;
+  border-radius: 0;
+  padding: 2rem;
+}
+.service-textCard {
+  background-color: #2a2a2a;
+  height: 700px;
+  border-radius: 0;
+}
+.textCard2 {
+  background-color: transparent;
+}
+.textCard .card-body,
+.textCard3 .card-body {
+  color: white;
+}
+.textCard3 button,
+.textCard4 button {
+  display: none;
+}
+.textCard ul,
+.textCard2 ul {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .textCard {
+    background-color: #2a2a2a;
+    height: auto;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .textCard,
+  .textCard3 {
+    height: auto;
+  }
+}

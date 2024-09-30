@@ -1,0 +1,60 @@
+button {
+  font-size: 12px;
+  padding: 8px 16px;
+}
+.contactBtn button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid white;
+}
+.contactBtn,
+.contactBtn2 {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.custom-col-btn button {
+  color: black;
+  background-color: white;
+  border: 3px solid black;
+  font-weight: bold;
+}
+.contactBtn2 button {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  font-weight: bold;
+  padding: 8px 1.7rem;
+}
+.home-service-btn button {
+  color: #ffb400;
+  border: 3px solid #ffb400;
+  background-color: transparent;
+  font-weight: bold;
+}
+.about-quote-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.about-quote-btn button {
+  color: #ffb400;
+  font-weight: bold;
+  border: 3px solid #ffb400;
+  background-color: transparent;
+}
+.custom-contact-btn button {
+  color: #ffb400;
+  font-weight: bold;
+  border: 3px solid #ffb400;
+  background-color: transparent;
+  padding: 8px 1.7rem;
+}
+.project-btn button {
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  padding: 8px 1.7rem;
+  font-weight: bold;
+}

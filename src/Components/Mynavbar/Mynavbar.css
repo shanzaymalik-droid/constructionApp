@@ -1,0 +1,4 @@
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.show {
+  color: black !important;
+}

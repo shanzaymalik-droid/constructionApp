@@ -1,0 +1,13 @@
+.mycard {
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mycard .card-body {
+  margin: 0 !important;
+  border: none !important;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

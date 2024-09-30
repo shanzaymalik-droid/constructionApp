@@ -1,0 +1,80 @@
+.custom-col {
+  display: flex;
+}
+.quote {
+  padding: 0;
+  margin: 0;
+}
+.col2 {
+  background-color: white !important;
+  color: black !important;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col1 {
+  background-color: #ffb400;
+  color: black;
+  padding: 1rem 2rem;
+}
+.contact-col2 {
+  background-color: white !important;
+  color: black !important;
+  width: 100%;
+  padding: 3.15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-col1 {
+  background-color: white;
+  color: black;
+
+  width: 100%;
+
+  padding: 1rem;
+  text-align: center;
+}
+.contact-col1 h4 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffb400;
+}
+.contact-col1 p {
+  padding: 5px 0px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.home-col {
+  background: #2a2a2a;
+  padding: 1.5rem;
+  width: 100%;
+  margin: 0;
+}
+.home-col-1 {
+  color: white;
+}
+.contact-col4 h4 {
+  font-size: 35px;
+}
+.services-quote {
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .col1 {
+    text-align: center;
+  }
+  .home-col {
+    align-items: center;
+  }
+  .contact-col1 {
+    text-align: center;
+  }
+}

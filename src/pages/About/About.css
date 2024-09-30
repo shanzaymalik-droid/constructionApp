@@ -1,0 +1,45 @@
+.about-construction {
+  background-image: url("../../assets/images//Rectangle\ 11\ \(5\).svg");
+  background-color: #1f1f1fd9;
+  background-blend-mode: color-burn;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service {
+  background-color: #f7f7f7;
+}
+.custom-col2 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  font-weight: bold;
+}
+.custom-col1 {
+  background-color: #ffb400;
+  color: black;
+  width: 100%;
+  padding: 1rem;
+  font-weight: bold;
+}
+.custom-col3,
+.custom-col4 {
+  background-color: transparent;
+  color: black;
+  width: 100%;
+  padding: 1rem;
+  font-weight: bold;
+}
+.custom-quote {
+  background-color: white !important;
+}
+
+.ceo-quote {
+  line-height: 1rem;
+
+  width: 100%;
+}
+.ceo-quote p {
+  font-size: 12px;
+}

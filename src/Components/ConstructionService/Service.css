@@ -1,0 +1,54 @@
+.main-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-service div {
+  display: flex;
+}
+.main-service h4 {
+  font-weight: bold;
+}
+.main-service h6 {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+.main-service p {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.home-service h4 {
+  display: none !important;
+}
+.about-service h6,
+.about-service p {
+  color: white;
+}
+.about-service h4 {
+  color: #ffb400;
+}
+.home-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-service div {
+  display: flex !important;
+  align-items: start !important;
+  justify-content: center;
+}
+.about-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.project-service {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
